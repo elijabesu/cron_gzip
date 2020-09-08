@@ -12,7 +12,7 @@ def main():
         paths = get_paths(path, file_name)
 
         with open(paths[0], "r") as f:
-            with gzip.open(paths[1], "wt+") as fgz:
+            with gzip.open(paths[1], "wt") as fgz:
                 fgz.writelines(f)
 
         clear_file(paths[0])
