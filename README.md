@@ -38,8 +38,6 @@ Spustíme script (pokud jsme ve složce, kde je soubor uložený, jinak nahradí
 sudo python3 <cesta k souboru gzip_files_date.py>
 ```
 
-![behem](https://github.com/elijabesu/cron_gzip/blob/master/pictures/spusteni.png)
-
 Výsledek:
 
 ![po](https://github.com/elijabesu/cron_gzip/blob/master/pictures/po-spusteni.png)

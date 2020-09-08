@@ -1,6 +1,5 @@
 import gzip
 import os
-import datetime
 
 def main():
     path = "/var/log"
